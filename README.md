@@ -4,7 +4,7 @@ This project is an **AI-powered academic research assistant** that fetches and s
 
 ---
 
-## 📌 Features
+##  Features
 - Fetches research data from **Wikipedia** and **Arxiv**
 - Summarizes large documents in **chunks**
 - Filters **relevant** insights
@@ -12,7 +12,7 @@ This project is an **AI-powered academic research assistant** that fetches and s
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 First, install the required dependencies:
 ```bash
@@ -21,7 +21,7 @@ pip install faiss-cpu langchain langchain-community langchain-groq transformers 
 
 ---
 
-## 🔑 Setting Up API Key
+##  Setting Up API Key
 
 This project requires a **Groq API key** for processing research data. Set it up as an environment variable:
 
@@ -32,7 +32,7 @@ Or enter it when prompted during runtime.
 
 ---
 
-## 📄 Usage
+##  Usage
 
 Run the script and enter a research topic:
 ```bash
@@ -59,7 +59,7 @@ Enter a research topic: cloud
 
 ---
 
-## 📜 How It Works
+##  How It Works
 
 1. **Fetch Research Data** → Retrieves **Wikipedia & Arxiv** documents
 2. **Process in Chunks** → Splits content to avoid token limits
